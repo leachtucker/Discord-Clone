@@ -41,3 +41,7 @@
     display: flex;
     align-items: center;
 }
+
+.sidebar__profile:hover {
+    cursor: pointer;
+}
