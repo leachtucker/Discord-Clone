@@ -9,7 +9,7 @@ import { Avatar } from '@material-ui/core';
 
 import './Sidebar.css';
 
-import db, { auth } from '../firebase/firebase';
+import db, { auth } from '../firebase';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 

@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import { selectChannelId, selectchannelName } from '../features/appSlice';
 import firebase from 'firebase';
-import db from '../firebase/firebase';
+import db from '../firebase';
 
 import { v4 as uuid } from 'uuid';
 

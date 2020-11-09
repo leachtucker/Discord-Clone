@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { auth } from './firebase/firebase';
+import { auth } from './firebase';
 
 import Sidebar from './components/Sidebar';
 import Chat from './components/Chat';

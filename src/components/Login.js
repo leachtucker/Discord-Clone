@@ -1,11 +1,10 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
-import { auth, provider } from '../firebase/firebase';
+import { auth, provider } from '../firebase';
 
 import './Login.css';
 
 function Login() {
-
     const signIn = () => {
         // google login method
         auth.signInWithPopup(provider)
