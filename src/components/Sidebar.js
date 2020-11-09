@@ -1,5 +1,4 @@
 import React from 'react';
-import './Sidebar.css';
 
 import SidebarChannel from './SidebarChannel';
 
@@ -7,6 +6,8 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
 import { SignalCellularAlt, InfoOutlined, Call, Mic, Settings, Headset } from '@material-ui/icons';
 import { Avatar } from '@material-ui/core';
+
+import './Sidebar.css';
 
 
 function Sidebar() {
